@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.text-orange {
+    color: #FF7008;
+}
+
+.main-section {
+    background: url('./images/lady.png');
+    width: 100%;
+    height: 130vh;
+    padding: 46px 110px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 36px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link a:active {
+    color: #FF7008;
+}
+
+.nav-link.home {
+    padding: 10px 0;
+    border-bottom: 2px solid #FF7008;
+    font-weight: 800px;
+}
+
+.nav-link.home a {
+    color: #FF7008;
+}
+
+.main-section-wrapper {
+    width: 499px;
+}
+
+.main-section-heading {
+    margin-bottom: 10px;
+    font-style: 49px;
+    line-height: 40px;
+}
+
+.phone-icon {
+    margin-bottom: 10px;
+}
+
+.main-setion-content {
+    line-height: 31.31px;
+}
+
+.main-section-box {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 160px;
+}
+
+.get-started {
+    margin-top: 40px;
+}
+
+.get-started a {
+    color: #FF7008;
+}
+
+.company-logos-wrapper {
+    height: 136px;
+    background: #F8F8F8;
+    padding: 15px 0 15px 0;
+}
+
+.logo-rows {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo-img {
+    margin-left: 30px;
+    align-items: center;
+}
+
+.pattern {
+    position: absolute;
+    right: 0px;
+    margin-top: 400px;
+}
+
+.features {
+    background: #E5E5E5;
+    height: fit-content;
+    padding: 20px 0px;
+    padding-bottom: 40px;
+}
+
+.features-header {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.features-header p {
+    color: #FF7008;
+    font-weight: 400;
+}
+
+.features-header h3 {
+    color: #454545;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 29px;
+}
+
+.features-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.features-content-heading {
+    align-content: center;
+    text-align: center;
+}
+
+.features-content-heading p {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features-content-heading span {
+    font-size: 14px;
+    line-height: 30px;
+    color: #797979;
+}
+
+.features-content-heading a {
+    color: #FF7008;
+}
+
+.footer {
+    background: #F8F8F8;
+    position: relative;
+    padding-top: 40px;
+    height: fit-content;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 30px 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-bottom: 1px solid #c5c1c1;
+    margin-bottom: 20px;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.footer-main h3 {
+    font-size: 16px;
+}
+
+.footer-main p {
+    line-height: 30px;
+    margin-top: 20px;
+    color: #797979;
+}
+
+.footer-column {
+    width: 25%;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #FF7008;
+    font-weight: 400;
+}
+
+.newsletter-btn-input {
+    margin-top: 30px;
+}
+
+.input-newsletter {
+    width: 180px;
+    height: 50px;
+    background: #F8F8F8;
+    border: 1px solid #BBBBBB;
+    padding-left: 12px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.newsletter-btn {
+    width: 130px;
+    height: 50px;
+    margin-left: -10px;
+    background: #FF7008;
+    color: #fff;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.copy-right {
+    color:  #ADADAD;
+    font-size: 14px;
+}
+
+.gravii {
+    color: #FF7008;
+}
+
+.ng {
+    color: #888686;
+    font-weight: 500;
+}
+
+.social-media img {
+    margin: 4px;
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width: 904px) {
+
+    .features-header {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px
+    }
+
+    .features-content {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .features-content-heading:not(:last-child) {
+        margin-bottom: 36px;
+    }
+
+    .footer {
+        margin-left: 0px;
+        justify-content: start;
+        justify-items: start;
+        padding-bottom: 20px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        margin-top:-30px;
+    }
+
+    .footer-column {
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    .bottom-footer {
+        flex-direction: column;
+    }
+
+    .input-newsletter {
+        width: 140px;
+        height: 40px;
+    }
+
+    .newsletter-btn {
+        width: 80px;
+        height: 40px;
+    }
+
+    .bottom-footer {
+        align-items: flex-start;
+    }
+
+    .social-media {
+        margin-top: 20px;
+    }
+
+    .hamburger {
+        display: block;
+        width: 5%;
+        cursor: pointer;
+        position: absolute;
+        right: 100px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+
+    /* .nav-bar {
+        display: flex;
+        justify-content: space-between;
+    } */
+    
+    .toggle {
+        border: 2px solid #888686;
+        display: block;
+        margin-top: 4px;
+    }
+
+    .main-section-box {
+        text-align: center;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+        margin-top: 670px;
+        margin-bottom: 30px;
+    }
+
+    .company-logos-wrapper {
+        height: fit-content;
+        padding: 0.4em 0;
+        text-align: center;
+        margin-top: 550px;
+        justify-content: center;
+    }
+
+    .logo-rows {
+        flex-wrap: wrap;
+    }
+
+    .logo-img {
+        width: 30%;
+        margin: 2em auto;
+    }
+
+    .company_logo{
+        width: 70%;
+        margin: auto;
+    }
+
+    .logo-header {
+        width: 100%;
+        color: #575757;
+    }
+
+}
